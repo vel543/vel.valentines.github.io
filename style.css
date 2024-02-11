@@ -1,0 +1,33 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffc0cb; /* Light pink background */
+    font-family: Arial, sans-serif;
+}
+
+.valentine-container {
+    text-align: center;
+}
+
+h1 {
+    color: #ff69b4; /* Pink color */
+    margin-bottom: 20px;
+}
+
+.koala {
+    max-width: 200px; /* Adjust based on the size of your GIF */
+    animation: bounce 2s infinite;
+}
+
+/* Simple bounce animation */
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+}
